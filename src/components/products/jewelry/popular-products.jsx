@@ -95,7 +95,7 @@ const PopularProducts = () => {
                     Shop by Category
                   </span>
                   <h3 className="tp-section-title-4">
-                    Popular on the Shofy store.
+                    Popular on the Wesellvelli store.
                   </h3>
                 </div>
               </div>
