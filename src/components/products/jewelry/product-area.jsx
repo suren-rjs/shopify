@@ -1,5 +1,8 @@
 import ErrorMsg from '@/components/common/error-msg';
-import { useGetProductTypeQuery } from '@/redux/features/productApi';
+import {
+  useGetProductTypeQuery,
+  useGetAllProductsQuery,
+} from "@/redux/features/productApi";
 import React, { useEffect, useRef, useState } from 'react';
 import ProductItem from './product-item';
 import { HomeTwoPrdLoader } from '@/components/loader';
@@ -11,7 +14,7 @@ const ProductArea = () => {
   const [activeTab, setActiveTab] = useState(tabs[0]);
   const activeRef = useRef(null);
   const marker = useRef(null);
-  const { data: products, isError, isLoading } = useGetProductTypeQuery({ type: 'jewelry' });
+  const { data: products, isError, isLoading } = useGetAllProductsQuery({});
   // handleActiveTab
   useEffect(() => {
     // Position the marker after the active tab has been updated

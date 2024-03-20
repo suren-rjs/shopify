@@ -37,8 +37,7 @@ const ShopFilterOffCanvas = ({
               onClick={() => dispatch(handleFilterSidebarOpen())}
               className="tp-filter-offcanvas-close-btn filter-close-btn"
             >
-              <i className="fa-solid fa-xmark"></i>
-              {" "}Close
+              <i className="fa-solid fa-xmark"></i> Close
             </button>
           </div>
           <div className="tp-shop-sidebar">
@@ -54,7 +53,7 @@ const ShopFilterOffCanvas = ({
             {/* color */}
             <ColorFilter setCurrPage={setCurrPage} shop_right={right_side} />
             {/* product rating */}
-            <TopRatedProducts />
+            {/* <TopRatedProducts /> */}
             {/* brand */}
             <ProductBrand setCurrPage={setCurrPage} shop_right={right_side} />
             {/* reset filter */}

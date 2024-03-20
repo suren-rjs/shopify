@@ -16,19 +16,19 @@ import FooterTwo from '@/layout/footers/footer-2';
 export default function Home() {
   return (
     <Wrapper>
-      <SEO pageTitle='Home'/>
-      <HeaderFour/>
-      <JewelryBanner/>
+      <SEO pageTitle="Home" />
+      <HeaderFour />
+      <JewelryBanner />
       <FeatureAreaThree />
-      <JewelryShopBanner/>
-      <JewelryAbout/>
-      <PopularProducts/>
-      <ProductArea/>
-      <JewelryCollectionBanner/>
-      <BestSellerPrd/>
-      <JewelryBrands/>
-      <InstagramAreaFour/>
-      <FooterTwo/>
+      <JewelryShopBanner />
+      <JewelryAbout />
+      <PopularProducts />
+      <ProductArea />
+      <JewelryCollectionBanner />
+      {/* <BestSellerPrd/> */}
+      <JewelryBrands />
+      <InstagramAreaFour />
+      <FooterTwo />
     </Wrapper>
-  )
+  );
 }
